@@ -1,16 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from '../components/App'
 
 if(module.hot){
     module.hot.accept()
-}
-
-const App = (props) => {
-    return(
-        <div>
-            <h1>Hello from inside React</h1>
-        </div>
-    )
 }
 
 const rootElement = document.getElementById('root')

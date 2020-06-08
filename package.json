@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "antd": "^4.3.3",
+    "loadash": "^1.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
