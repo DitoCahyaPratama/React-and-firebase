@@ -1,8 +1,8 @@
-import React from 'react'
-import {PageHeader} from 'antd'
-import Post from './Post'
-import api from '../mock_api'
-import _ from 'lodash'
+import React from 'react';
+import {PageHeader} from 'antd';
+import Post from './Post';
+import api from '../mock_api';
+import _ from 'lodash';
 
 function Posts(props) {
     return (
@@ -19,7 +19,9 @@ function Posts(props) {
             <div className="articles_container">
                  {
                      _.map(api, (article) => {
-                        <Post title={article.title} content={article.content} />
+                         return (
+                             <Post title={article.title} content={article.content} />
+                         )
                      })
                  }
             </div>

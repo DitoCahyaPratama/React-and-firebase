@@ -159,7 +159,9 @@
                 <div className="articles_container">
                     {
                         _.map(api, (article) => {
-                            <Post title={article.title} content={article.content} />
+                            return (
+                                <Post title={article.title} content={article.content} />
+                            )
                         })
                     }
                 </div>

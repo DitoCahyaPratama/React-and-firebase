@@ -1,5 +1,5 @@
-import React from 'react'
-import Posts from './Posts'
+import React from 'react';
+import Posts from './Posts';
 
 function App(props){
     return (
